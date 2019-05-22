@@ -27,7 +27,7 @@ npm i createImgwatermark
    let {
        blobWithWaterFile, //二进制文件
        fileWithWaterFile //文件类型的文件
-   } = createImageWaterMark({file,['水印文字']});
+   } =await createImageWaterMark({file,['水印文字']});
    
 ```
 
