@@ -1,0 +1,17 @@
+{
+  "name": "createImgwatermark",
+  "version": "1.0.1",
+  "description": "waterMark createImageWaterMark ImgWaterMark ",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "waterMark",
+    "imgWaterMark",
+    "image",
+    "img"
+  ],
+  "author": "wy",
+  "license": "ISC"
+}
