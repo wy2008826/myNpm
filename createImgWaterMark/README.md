@@ -14,7 +14,22 @@
   * type ：Boolean
   * required : false
    
-```js
-    console.log(123)
+### useage
 
+npm i createImgwatermark
+
+
+``` javascript
+
+   import createImageWaterMark from 'createImgwatermark';
+   let file = null;//文件上传输入框中读取的文件
+   
+   let {
+       blobWithWaterFile, //二进制文件
+       fileWithWaterFile //文件类型的文件
+   } = createImageWaterMark({file,['水印文字']});
+   
 ```
+
+
+
